@@ -1,0 +1,18 @@
+/*
+* @Author: xiongsheng
+* @Date:   2016-11-09 16:15:47
+* @Last Modified by:   xiongsheng
+* @Last Modified time: 2016-11-10 17:09:30
+*/
+.test {
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+.btn {
+    width: 200px
+}
