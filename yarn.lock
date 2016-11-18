@@ -1834,6 +1834,10 @@ fbjs@^0.8.4:
     promise "^7.1.1"
     ua-parser-js "^0.7.9"
 
+fetch-polyfill:
+  version "0.8.2"
+  resolved "http://registry.npm.sogou/fetch-polyfill/download/fetch-polyfill-0.8.2.tgz#3e1486442da5b53c43e66a6951eaa0fd5d23f1ac"
+
 figures@^1.3.5:
   version "1.7.0"
   resolved "http://registry.npm.sogou/figures/download/figures-1.7.0.tgz#cbe1e3affcf1cd44b80cadfed28dc793a9701d2e"

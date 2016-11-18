@@ -2,7 +2,7 @@
 * @Author: xiongsheng
 * @Date:   2016-11-09 16:15:47
 * @Last Modified by:   xiongsheng
-* @Last Modified time: 2016-11-10 17:09:30
+* @Last Modified time: 2016-11-18 15:48:02
 */
 .test {
     box-sizing: border-box;
@@ -15,4 +15,41 @@
 
 .btn {
     width: 200px
+}
+
+.main-container {
+    background: #EEEEEE;
+}
+
+.card-list {
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.card {
+    position: relative;
+    margin: 0 auto;
+    width: 9.46666667rem;
+    margin-top: 0.3125rem;
+    padding: 0.4rem;
+    font-size: 0.34666667rem;
+    border-radius: 0.10666667rem;
+    border: 1px solid #E1E1E1;
+    background: #FFFFFF;
+}
+
+.grey {
+    color: #5C5C5C;
+}
+
+.card .value {
+    line-height: 0.74666667rem;
+    font-size: 0.53333333rem;
+    position: relative;
+    font-family: PingFang-SC-Regular;
+}
+
+.card .percentage {
+    display: flex;
 }

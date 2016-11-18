@@ -2,7 +2,7 @@
  * @Author: xiongsheng
  * @Date:   2016-11-17 11:45:47
  * @Last Modified by:   xiongsheng
- * @Last Modified time: 2016-11-17 13:57:53
+ * @Last Modified time: 2016-11-18 15:51:19
  */
 
 'use strict';
@@ -16,7 +16,7 @@ import {
     Button,
     Alert
 } from '@bizfe/biz-mobile-ui';
-
+import List from './List';
 import makeCancelable from '../common/makeCancelable';
 
 
@@ -35,11 +35,6 @@ class Todo extends Component {
                     return response.json();
                 }
             }, 3000))
-            // .then(json => {
-            //     this.setState({
-            //         title: 'Todo'
-            //     });
-            // })
         );
         cancelablePromise
             .promise
@@ -60,22 +55,16 @@ class Todo extends Component {
     }
 
     render() {
-        const {
-            title
-        } = this.state;
-        return ( < div >
-            < Button className = "btn"
-            size = "small"
-            onTouchTap = {
-                () => {
-                    this.changeTitle()
-                }
-            } > {
-                title
-            } < /Button> < /div >
+        const list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+        return (
+            <div className="main-container">
+                <List data={list} listType={'todo'} />
+            </div>
         );
     }
 }
+
+
 
 export default Todo

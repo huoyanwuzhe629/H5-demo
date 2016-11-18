@@ -66,6 +66,7 @@ var config = {
             'react-dom',
             'react-router',
             'es6-promise',
+            'fetch-polyfill',
             '@bizfe/biz-mobile-ui'
         ],
 
