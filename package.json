@@ -43,7 +43,7 @@
     "style-loader": "~0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.15.0"
+    "webpack-dev-server": "1.14.1"
   },
   "globalDevDependencies": {
     "webpack": "*",

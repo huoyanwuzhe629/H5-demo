@@ -169,7 +169,7 @@ if (process.env.NODE_ENV === 'production') {
     config.plugins.push(
         new HtmlWebpackPlugin({
             template: './appBuild.html',
-            filename: '../index.html',
+            filename: 'index.html',
             inject: true,
             chunks: ['app', 'vendor', 'manifest']
         })
