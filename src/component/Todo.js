@@ -2,7 +2,7 @@
  * @Author: xiongsheng
  * @Date:   2016-11-17 11:45:47
  * @Last Modified by:   xiongsheng
- * @Last Modified time: 2016-11-21 15:00:30
+ * @Last Modified time: 2016-11-21 16:53:38
  */
 
 'use strict';
@@ -18,7 +18,9 @@ import {
 } from '@bizfe/biz-mobile-ui';
 import List from './List';
 import makeCancelable from '../common/makeCancelable';
+import * as Global from '../common/global';
 
+const BASE_URL = Global.get('baseUrl');
 
 class Todo extends Component {
     state = {
@@ -59,25 +61,25 @@ class Todo extends Component {
     }
 
     candidateTask() {
-        fetch('/mobile/candidateTask').then(response=>{
+        fetch(`${BASE_URL}/mobile/candidateTask`).then(response=>{
             return response.json();
         })
     }
 
     doneTask() {
-        fetch('/mobile/doneTask').then(response=>{
+        fetch(`${BASE_URL}/mobile/doneTask`).then(response=>{
             return response.json();
         })
     }
 
     performOrderBaseInfo() {
-        fetch('/mobile/performOrder/performOrderBaseInfo').then(response=>{
+        fetch(`${BASE_URL}/mobile/performOrder/performOrderBaseInfo`).then(response=>{
             return response.json();
         })
     }
 
     performOrderAudit() {
-        fetch('/mobile/performOrder/performOrderAudit').then(response=>{
+        fetch(`${BASE_URL}/mobile/performOrder/performOrderAudit`).then(response=>{
             return response.json();
         })
     }

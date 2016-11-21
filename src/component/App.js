@@ -2,7 +2,7 @@
  * @Author: xiongsheng
  * @Date:   2016-11-09 16:21:09
  * @Last Modified by:   xiongsheng
- * @Last Modified time: 2016-11-18 15:43:56
+ * @Last Modified time: 2016-11-21 16:50:48
  */
 
 'use strict';
@@ -15,7 +15,6 @@ import {
     Button,
     Alert
 } from '@bizfe/biz-mobile-ui';
-
 
 class App extends Component {
     render() {
