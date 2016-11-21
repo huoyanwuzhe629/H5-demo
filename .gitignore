@@ -13,3 +13,4 @@ dist*
 _dist*
 webpack-assets.json
 npm-debug.log.*
+yarn-error.log

@@ -50,5 +50,31 @@
     "webpack": "*",
     "webpack-dev-server": "*",
     "jshint": "*"
+  },
+  "bizdp": {
+    "npm": {
+      "command": "npm",
+      "registry": "http://registry.npm.sogou"
+    },
+    "build": "gulp",
+    "server": {
+      "command": "webpack-dev-server",
+      "options": {
+        "inline": true,
+        "hot": true,
+        "host": "0.0.0.0",
+        "colors": true,
+        "progress": true,
+        "display-modules": true
+      }
+    },
+    "mock": {
+      "surffix": "*"
+    },
+    "validate": {
+      "command": "jshint",
+      "options": {},
+      "src": "src"
+    }
   }
 }
