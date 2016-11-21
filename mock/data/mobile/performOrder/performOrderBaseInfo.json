@@ -1,0 +1,46 @@
+{
+    "enabled": true,
+    "value": "success",
+    "success": {
+        "success": true,
+        "data": [{
+            "specialApproveContent": "2",
+            "canApprove": true,
+            "type ": 3,
+            "subtype": 2,
+            "performOrder": {
+                "performOrderId": 4271,
+                "totalAmountStr": "1，000.00",
+                "totalAmountCNStr": "壹万元整",
+                "statusStr": "等待媒介负责人审批",
+                "startDateStr": "2016-10-01",
+                "endDateStr": "2017-03-31",
+                "performOrderBasic": {
+                    "performOrderName": "16-BD-01628#001"
+                }
+            },
+            "contract": {
+                "contractName": "16-BD-01628",
+                "agentid": 123,
+                "agentName": "xx公司",
+                "kaId": 567,
+                "kaName": "xx厂商",
+                "agentSignCompany": "XX代理商签署公司"
+            },
+            "approveInfos": [{
+                "instructionId": 1,
+                "type": 3,
+                "subtype": 1,
+                "updaterStr": "xiongsheng",
+                "updateDateStr": "133",
+                "content": "haha"
+            }]
+        }],
+        "errormsg": "error"
+    },
+    "error": {
+        "success": false,
+        "errormsg": ["input error"],
+        "data": []
+    }
+}

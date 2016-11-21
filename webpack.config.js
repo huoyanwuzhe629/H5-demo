@@ -159,6 +159,9 @@ var config = {
                         return 'app.html';
                     }
                 }
+            },
+            '*/mobile/*': {
+                target: 'http://localhost:' + mockport,
             }
         }
     },

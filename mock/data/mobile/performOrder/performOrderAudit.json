@@ -1,0 +1,12 @@
+{
+    "enabled": true,
+    "value": "success",
+    "success": {
+        "success": true,
+        "errormsg": "error"
+    },
+    "error": {
+        "success": false,
+        "errormsg": "error"
+    }
+}

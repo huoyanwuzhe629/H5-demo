@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "value": "success",
+    "success": {
+        "success": true,
+        "data": [{
+            "taskCategory": "2",
+            "taskId": 1,
+            "businessName": "name",
+            "businessId": 123,
+            "endTime": 345
+        }],
+        "errormsg": "error"
+    },
+    "error": {
+        "success": false,
+        "errormsg": ["input error"],
+        "data": []
+    }
+}
